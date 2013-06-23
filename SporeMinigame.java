@@ -6,6 +6,8 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
+//Haha I can edit this.
+
 
 public class SporeMinigame extends JavaPlugin implements Listener {
   public final Logger logger =  Logger.getLogger("Minecraft");
