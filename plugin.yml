@@ -1,0 +1,10 @@
+name: SporeMinigame
+main: net.minigame.spore.SporeMinigame
+version: 0.1.0
+author: [DancingCactus, MrJoe223] 
+description: 1337 plugin.
+commands:
+    stest:
+        permission: sporeminigame.test
+        description: Test
+  	
