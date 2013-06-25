@@ -1,8 +1,8 @@
 name: SporeMinigame
 main: net.minigame.spore.SporeMinigame
 version: 0.1.0
-author: [DancingCactus, MrJoe223] 
-description: 1337 plugin.
+author: ["DancingCactus", "MrJoe223"] 
+description: Minigame for SporeCraft that we have no idea what it will be about yet.
 commands:
     stest:
         permission: sporeminigame.test
