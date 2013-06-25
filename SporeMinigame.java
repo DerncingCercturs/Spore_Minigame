@@ -19,10 +19,10 @@ public class SporeMinigame extends JavaPlugin implements Listener {
     		getCommand("stest").setExecutor(new Commands(this));
     		File config = new File(getDataFolder() + File.separator + "config.yml");
     		if(!config.exists()){
-    		this.logger.info("Creating default config file for " + pdfFile.getName() + "...");
-    		this.getConfig().addDefault("status", "true");
-    		this.getConfig().options().copyDefaults(true);
-    		this.saveConfig();
+    			this.logger.info("Creating default config file for " + pdfFile.getName() + "...");
+    			this.getConfig().addDefault("status", "true");
+    			this.getConfig().options().copyDefaults(true);
+    			this.saveConfig();
     	}
     	
     	String enabled = this.getConfig().getString("status");
